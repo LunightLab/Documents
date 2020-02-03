@@ -32,28 +32,19 @@
 ## Table of Contents
 
 * [About Project](#About-Project)
-* [Support Version](#Support-Version)
-* [Installation Process](#Installation-Process)
-* [Distribution Architecture](#Distribution-Architecture)
-* [Update Log](#Update-Log)
+* [Contents](#Contents)
 * [About LuLabTemplate](#About-LuLabTemplate)
 * [README.md History](#README.md-History)
 * [License](#License)
 * [Author](#Author)
 
 ## About Project
-- 
-## Support Version
-- 
+ 개인정리용으로 사용하는 리퍼지토리입니다.
+ 오타 혹은 수정사항이 있으면 이메일 또는 코멘트 남겨주세요.
 
-## Installation Process
-- 
-
-## Distribution Architecture
-- 
-
-## Update Log
-- 
+## Contents
+- 0.Tip&Tech : 간단한 팁 또는 기술자료들 모음.
+- 1.DevOps : DevOps 자료(git,docker 포함)
 
 ## About LuLabTemplate
 - Lunight Lab Github Template  
@@ -61,6 +52,7 @@
 
 ## README.md History
 - 2020.2.3 : 템플릿 첫작성.
+- 2020.2.3 : 첫작성.
 
 ## License
 - MIT
