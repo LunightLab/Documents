@@ -13,10 +13,10 @@
     <img src="images/readme-title.png" alt="title" width="290" height="290">
   </a>
 
-  <h3 align="center">Project title</h3>
+  <h3 align="center">Study record repository</h3>
 
   <p align="center">
-    설명...
+  개인 정리자료입니다.
     <br />
     <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
