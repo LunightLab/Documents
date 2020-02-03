@@ -18,14 +18,16 @@
   <p align="center">
   개인 정리자료입니다.
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+<!--
+<a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://google.com">Commit Information</a>
     ·
     <a href="https://google.com">Report Bug</a>
     ·
-    <a href="https://google.com">Wiki</a>
+    <a href="https://google.com">Wiki</a> 
+-->
   </p>
 </p>
 
