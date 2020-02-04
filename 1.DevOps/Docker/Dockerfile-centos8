@@ -1,0 +1,9 @@
+# centos8 dockerfile
+# centos:latest // centos8 docker container image
+FROM centos:latest 
+#ADD <file name> <save path>
+#RUN : install script
+RUN yum install -y epel-release
+CMD ["/bin/bash"]
+
+
