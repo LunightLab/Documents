@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+#Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+  target 'objcLuLabiOS' do
+  #xcode 경고없애기
+  inhibit_all_warnings!
+
+  pod "AFNetworking", "~> 2.0"
+  pod '1PasswordExtension', '~> 1.8' #1Password App 연동
+
+  target 'objcLuLabiOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'objcLuLabiOSUITests' do
+    # Pods for testing
+  end
+
+end
