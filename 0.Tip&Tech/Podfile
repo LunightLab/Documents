@@ -1,14 +1,63 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '9.0'
-#Comment the next line if you don't want to use dynamic frameworks
-use_frameworks!
+#Comment the next line if you don't want to use dynamic frameworks(use swift)
+use_frameworks! # swift & ios8+
 
   target 'objcLuLabiOS' do
   #xcode 경고없애기
   inhibit_all_warnings!
+  
+  # 네트워킹 라이브러리
+  pod "AFNetworking", "~> 2.0" #cbjective-c
+  #pod 'Alamofire', '~> 5.0' #swift
 
-  pod "AFNetworking", "~> 2.0"
-  pod '1PasswordExtension', '~> 1.8' #1Password App 연동
+  # json 라이브러리
+  pod 'JSONModel', '~> 1.8' #objective-c 
+  #pod 'SwiftyJSON', '~> 5.0' #swift
+  
+  #1Password App 연동
+  pod '1PasswordExtension', '~> 1.8'
+  #Google open-source collection of C++ code
+  pod 'abseil', '~> 0.20200225' 
+
+  # json object mapper
+  pod 'ObjectMapper', '~> 3.4'
+
+  # Realm 크로스 플랫폼 모바일 데이터베이스 
+  pod 'RealmSwift', '5.0.0-beta.3' #swift
+
+  # 오토레이아웃을 코드로 구성할때 작성하기 쉽도록 해주는 라이브러리 
+  pod 'SnapKit', '~> 5.0'
+
+  # 테이블뷰나 컬렉션 뷰 등에 데이타가 없을때 심플한 화면을 관리해주는 라이브러리
+  pod 'DZNEmptyDataSet', '~> 1.8'
+
+  # 텍스트필드 효과라이브러리 
+  pod 'TextFieldEffects', '~> 1.6' #swift
+
+  # Toast alert 라이브러리 
+  pod 'ALToastView', '~> 0.0'
+
+  # 컬렉션뷰 에니메이션 라이브러리 
+  pod 'AnimatedCollectionViewLayout'
+
+  # swift에서 스레드,클래스를 안전하고 빠르게 만들기 위한 라이브러리
+  pod 'Atomic', '~> 1.0' #swift
+
+  # 컬렉션뷰에서 이미지를 보아서 볼 수 있는 라이브러리를 제공(ex.네이버카페 모바일버전 게시판을 사진으로 보기)
+  pod 'CHTCollectionViewWaterfallLayout', '~> 0.9' #objective-c
+
+  # 비동기 소켓 라이브러리
+  pod 'CocoaAsyncSocket'
+
+  # 로깅 프레임워크 
+  pod 'CocoaLumberjack' #objective-c
+  pod 'CocoaLumberjack/Swift' #swift
+
+  # 하나의 UICollectionViewLayout을 제어할 수 있다.
+  pod "CSStickyHeaderFlowLayout"
+
+
 
   target 'objcLuLabiOSTests' do
     inherit! :search_paths
