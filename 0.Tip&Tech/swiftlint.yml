@@ -1,0 +1,10 @@
+# swiftlint 사용자화
+# XCode Empty file로 생성해서 적용할것
+# .swiftlint.yml로 저장
+disabled_rules:
+- line_length
+included:
+excluded:
+- Pods
+- kbsignTestAppSwiftUITests/kbsignTestAppSwiftUITests.swift
+- kbsignTestAppSwiftTests/kbsignTestAppSwiftTests.swift
