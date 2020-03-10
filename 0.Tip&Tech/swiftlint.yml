@@ -6,5 +6,5 @@ disabled_rules:
 included:
 excluded:
 - Pods
-- kbsignTestAppSwiftUITests/kbsignTestAppSwiftUITests.swift
-- kbsignTestAppSwiftTests/kbsignTestAppSwiftTests.swift
+- <file path>.swift
+- <file path>.swift
